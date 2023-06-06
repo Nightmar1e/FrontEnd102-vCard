@@ -1,0 +1,211 @@
+body {
+  padding: 5%;
+  font-family: Arial, sans-serif;
+  background-color: #c2c2c6;
+  background-image: url("back.jpg");
+}
+
+.card {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #bdbdbd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 5px slategray;
+}
+
+aside {
+  float: right;
+  height: 400px;
+  width: 40%;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+section {
+  height: 400px;
+  width: 385px;
+  box-sizing: border-box;
+}
+
+h1 {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  font-weight: italic;
+  font-size: 2em;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+  padding-top: 10px;
+}
+h2:active::after{
+    display: block;
+    content:"Becode is better";
+    background-color: black;
+    color: white;
+}
+
+h3 {
+  color: #333;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: -40px;
+  padding-left: 5px;
+  border-bottom-width: 5px;
+  border-top-style: solid;
+  border-left-style: solid;
+}
+p{
+    margin-left: -40px;
+    margin-top: 60px;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    margin-bottom: 0px;
+}
+article{
+    height: 400px;
+    width: 385px;
+    display : inline;
+
+}
+article img:first-child {
+    height: 40px;
+    width: 40px;
+    padding-left: 0px;
+    margin-bottom:0;
+}
+
+article img:nth-child(2) {
+    display : inline;
+    height: 300px;
+    width: 220px;
+    padding-left: 150px;
+    margin-bottom: -200px;
+    margin-top:-45px;
+    margin-left: auto;
+    border-bottom-right-radius: 3px;
+    border-style: solid;
+    border-width: 0px 3px 5px 0px;
+}
+.CONTACT {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:180px;
+    padding-top: 20px;
+    font-size: 1.8em;
+    height: 100px;
+}
+
+.CONTACT img {
+  height: 44px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 370px) {
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    aside{
+        height: 300px;
+    }
+    aside, section {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1em;
+    }
+    h2:active::after{
+        display: block;
+        content:"Becode is better";
+        background-color: black;
+        color: white;
+    }
+    h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 8px;
+    }
+
+    article img:nth-child(2) {
+        height: 50% auto;
+        width: 40% auto;
+        position: absolute;
+        right: 18px;
+        padding:0;
+        margin: 20px auto;
+    }
+    .CONTACT{
+        display: block;
+        justify-content: space-around;
+        align-items: left;
+        margin-top:20px;
+        width: 100px;
+
+
+    }
+    .CONTACT a{
+        margin-top:20px;
+        margin-left: 20%;
+        width: 50px;
+        display:block;
+        justify-content: space-around;
+        align-items: left;
+
+
+    }
+    article img:first-child {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        height: 38px;
+        width: 40px;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 8px;
+    }
+    p1{
+        margin-left: 5%;
+        font-size: 22px;
+    }
+    .CONTACT img {
+      padding-left: 10px;
+      height: 50px;
+      width: 50px;
+
+    }
+
+
